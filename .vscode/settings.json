@@ -14,7 +14,7 @@
         {
             "format": "expanded",
             "extensionName": ".css",
-            "savePath": "src/dist/css",
+            "savePath": "/src/dist/css",
             "savePathReplacementPairs": null
         }
     ]
