@@ -1,217 +1,33 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  vertical-align: baseline;
+.font__size--xs {
+  font-size: 0.5rem;
 }
 
-body {
-  line-height: 1.5;
+.font__size--sm {
+  font-size: 0.75rem;
 }
 
-ol, ul {
-  list-style: none;
+.font__size--md {
+  font-size: 1rem;
 }
 
-a {
-  text-decoration: none;
+.font__size--lg {
+  font-size: 1.75rem;
 }
 
-input, button, textarea, select {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  vertical-align: middle;
+.font__size--xl {
+  font-size: 2.25rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: inherit;
-  font-weight: normal;
+.font__align--center {
+  text-align: center;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+.font__align--left {
+  text-align: left;
 }
 
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
-::-moz-selection {
-  background-color: #b3d4fc;
-  color: #000;
-}
-
-::selection {
-  background-color: #b3d4fc;
-  color: #000;
-}
-
-textarea {
-  resize: vertical;
-}
-
-button {
-  cursor: pointer;
-}
-
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
-  display: block;
-}
-
-::-webkit-input-placeholder {
-  /* WebKit/Blink browsers */
-  color: #999;
-}
-
-::-moz-placeholder {
-  /* Mozilla Firefox 4 to 18 */
-  color: #999;
-  opacity: 1;
-}
-
-::-ms-input-placeholder {
-  color: #999;
-}
-
-::-ms-input-placeholder {
-  color: #999;
-}
-
-::-moz-selection {
-  background-color: #7d7d7d;
-  color: #fff;
-}
-
-::selection {
-  background-color: #7d7d7d;
-  color: #fff;
-}
-
-::-moz-selection {
-  background-color: #7d7d7d;
-  color: #fff;
-}
-
-input:focus, textarea:focus, select:focus {
-  outline: none;
-}
-
-[hidden] {
-  display: none !important;
-}
-
-.font__inconsolata {
-  font-family: "Inconsolata", monospace;
-  font-optical-sizing: auto;
-  font-weight: normal;
-  font-style: normal;
-  font-variation-settings: "wdth" 125;
-}
-
-.font__gilda__display {
-  font-family: "Gilda Display", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 2rem;
-}
-
-.font__roboto__thin {
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-}
-
-.font__roboto__thin__italic {
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
-  font-style: italic;
-}
-
-.font__roboto__light {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.font__roboto__light__italic {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.font__roboto__regular {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.font__roboto__regular__italic {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.font__roboto__medium {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.font__roboto__medium__italic {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: italic;
-}
-
-.font__roboto__bold {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.font__roboto__bold__italic {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.font__roboto__black {
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.font__roboto__black__italic {
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  font-style: italic;
+.font__align--right {
+  text-align: right;
 }
 
 body {
@@ -224,89 +40,322 @@ body {
   color: #ffe81e;
 }
 
-.font__inconsolata {
-  font-family: "Inconsolata", monospace;
-  font-optical-sizing: auto;
-  font-weight: normal;
-  font-style: normal;
-  font-variation-settings: "wdth" 125;
+.font__size--xs {
+  font-size: 0.5rem;
 }
 
-.font__gilda__display {
-  font-family: "Gilda Display", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 2rem;
+.font__size--sm {
+  font-size: 0.75rem;
 }
 
-.font__roboto__thin {
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
-  font-style: normal;
+.font__size--md {
+  font-size: 1rem;
 }
 
-.font__roboto__thin__italic {
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
-  font-style: italic;
+.font__size--lg {
+  font-size: 1.75rem;
 }
 
-.font__roboto__light {
-  font-family: "Roboto", sans-serif;
+.font__size--xl {
+  font-size: 2.25rem;
+}
+
+.font__align--center {
+  text-align: center;
+}
+
+.font__align--left {
+  text-align: left;
+}
+
+.font__align--right {
+  text-align: right;
+}
+
+.font__fira-code-light {
+  font-family: "Fira Code", monospace;
   font-weight: 300;
   font-style: normal;
 }
 
-.font__roboto__light__italic {
-  font-family: "Roboto", sans-serif;
+.font__fira-code-regular {
+  font-family: "Fira Code", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font__fira-code-medium {
+  font-family: "Fira Code", monospace;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font__fira-code-semibold {
+  font-family: "Fira Code", monospace;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.font__fira-code-bold {
+  font-family: "Fira Code", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font__fira-code-thin-italic {
+  font-family: "Fira Code", monospace;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.font__fira-code-extralight-italic {
+  font-family: "Fira Code", monospace;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.font__fira-code-light-italic {
+  font-family: "Fira Code", monospace;
   font-weight: 300;
   font-style: italic;
 }
 
-.font__roboto__regular {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.font__roboto__regular__italic {
-  font-family: "Roboto", sans-serif;
+.font__fira-code-regular-italic {
+  font-family: "Fira Code", monospace;
   font-weight: 400;
   font-style: italic;
 }
 
-.font__roboto__medium {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.font__roboto__medium__italic {
-  font-family: "Roboto", sans-serif;
+.font__fira-code-medium-italic {
+  font-family: "Fira Code", monospace;
   font-weight: 500;
   font-style: italic;
 }
 
-.font__roboto__bold {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+.font__fira-code-semibold-italic {
+  font-family: "Fira Code", monospace;
+  font-weight: 600;
+  font-style: italic;
 }
 
-.font__roboto__bold__italic {
-  font-family: "Roboto", sans-serif;
+.font__fira-code-bold-italic {
+  font-family: "Fira Code", monospace;
   font-weight: 700;
   font-style: italic;
 }
 
-.font__roboto__black {
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
+.font__ibm-plex-mono-thin {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 100;
   font-style: normal;
 }
 
-.font__roboto__black__italic {
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
+.font__ibm-plex-mono-extralight {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.font__ibm-plex-mono-light {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font__ibm-plex-mono-regular {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font__ibm-plex-mono-medium {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font__ibm-plex-mono-semibold {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.font__ibm-plex-mono-bold {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font__ibm-plex-mono-thin-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 100;
   font-style: italic;
+}
+
+.font__ibm-plex-mono-extralight-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.font__ibm-plex-mono-light-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.font__ibm-plex-mono-regular-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.font__ibm-plex-mono-medium-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.font__ibm-plex-mono-semibold-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.font__ibm-plex-mono-bold-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.font__roboto-mono-thin {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.font__roboto-mono-extralight {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.font__roboto-mono-light {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font__roboto-mono-regular {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font__roboto-mono-medium {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font__roboto-mono-semibold {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.font__roboto-mono-bold {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font__roboto-mono-thin-italic {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.font__roboto-mono-extralight-italic {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.font__roboto-mono-light-italic {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.font__roboto-mono-regular-italic {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.font__roboto-mono-medium-italic {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.font__roboto-mono-semibold-italic {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.font__roboto-mono-bold-italic {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: 2px solid #101417;
+  height: 2.75rem;
+}
+.header a {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: auto;
+  color: #ffe81e;
+  text-decoration: none;
+}
+.header a h1 {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.header nav {
+  height: 2.25rem;
+}
+.header nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  height: 100%;
+}
+.header nav ul li {
+  display: inline-block;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  height: 100%;
+  border-left: 2px solid #101417;
+  border-right: 2px solid #101417;
+}
+.header nav ul li a {
+  transition: color 0.17s ease;
+}
+.header nav ul li a:hover {
+  color: #ffb25e;
 }/*# sourceMappingURL=style.css.map */

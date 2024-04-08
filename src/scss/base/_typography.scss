@@ -1,88 +1,31 @@
-.font__inconsolata {
-    font-family: "Inconsolata", monospace;
-    font-optical-sizing: auto;
-    font-weight: normal;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 125;
+.font__size--xs {
+    font-size: .5rem;
 }
 
-.font__gilda__display{
-    font-family: "Gilda Display", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 2rem;
+.font__size--sm {
+    font-size: .75rem;
 }
-  
 
-.font__roboto__thin {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: normal;
+.font__size--md {
+    font-size: 1rem;
 }
-  
-.font__roboto__thin__italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: italic;
+
+.font__size--lg {
+    font-size: 1.75rem;
 }
-  
-.font__roboto__light {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: normal;
+
+.font__size--xl {
+    font-size: 2.25rem;
 }
-  
-.font__roboto__light__italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: italic;
+
+.font__align--center {
+    text-align: center;
 }
-  
-.font__roboto__regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+
+.font__align--left {
+    text-align: left;
 }
-  
-.font__roboto__regular__italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-}
-  
-.font__roboto__medium {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
-  
-.font__roboto__medium__italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-}
-  
-.font__roboto__bold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
-  
-.font__roboto__bold__italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-}
-  
-.font__roboto__black {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-}
-  
-.font__roboto__black__italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: italic;
+
+.font__align--right {
+    text-align: right;
 }
